@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* #parent{
+    height: 500px;
+    width: 500px;
+    background-color: cyan;
+}
+
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: salmon;
+} */
+
+
+#parent{
+    background-color: rosybrown;
+    font-size: 60px;
+}
+
+h1{
+    font-size: 0.5em;
+}
+
+h2{
+    font-size: 1em;
+}
+
+h3{
+    font-size: 1.5em;
+}
