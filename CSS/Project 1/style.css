@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('C:\Users\Dhruv Vasisht\Documents\Web Dev\CSS\Mini 2');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #F8F8F8;
+    position: relative;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    margin-top: 30px;
+}

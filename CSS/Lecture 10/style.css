@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    height: 400px;
+    width: 400px;
+    background-color: burlywood;
+    position: absolute;
+    animation-name: anime;
+    animation-duration: 2s;
+}
+
+@keyframes anime {
+    from{
+        left: 0;
+    }
+    to{
+        left: 60%;
+        background-color: aqua;
+    }
+}

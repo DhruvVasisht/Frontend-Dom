@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('C:\Users\Dhruv Vasisht\Documents\Web Dev\CSS\Mini 2');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* img{
+    height: 600px;
+    position: absolute;
+    animation-name: chutki-anime;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+@keyframes chutki-anime {
+     from{
+        left: 0;
+        top: 0;
+    }
+    to{
+        left: 80%;
+        top: 50%;
+    } 
+
+    0%{
+        left: 0;
+        top: 0;
+    }
+
+    50%{
+        left: 80%;
+        top: 0;
+    }
+
+    100%{
+        left: 80%;
+        top: 50%;
+    }
+}
+ 
+
+
+ #box1{
+    height:300px;
+    width: 300px;
+    background-color: crimson;
+    position: relative;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+ }
+
+
+ #box2{
+    height:300px;
+    width: 300px;
+    background-color: burlywood;
+    position: relative;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+ }
+
+ @keyframes anime {
+    from{
+        left: 0;
+    }
+
+    to{
+        left: 80%;
+    }
+    
+ }*/
+
+h1{
+    font-size: 90px;
+    color: red;
+}
+
+h1::after{
+    content: "❤";
+    color: blue;
+}

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('C:\Users\Dhruv Vasisht\Documents\Web Dev\CSS\Mini 2');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    padding: 5vw;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid cyan;
+    color: cyan;
+    font-weight: 500;
+
+}
+
+button::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    
+}
