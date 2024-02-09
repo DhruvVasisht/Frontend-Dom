@@ -1,7 +1,13 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url('C:\Users\Dhruv Vasisht\Documents\Web Dev\CSS\Mini 2');
+    src: url(Gilroy-ExtraBold.ttf);
 }
+
+@font-face {
+    font-family: 'monument';
+    src: url(MonumentExtended-Regular.ttf);
+}
+
 
 *{
     margin: 0;
@@ -20,11 +26,198 @@ html,body{
     width: 100%;
     background-color: #F8F8F8;
     position: relative;
+    padding-top: 0.1px;
 }
 
 #nav{
-    height: 100px;
+    height: 12vh;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     margin-top: 30px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+#nav h1{
+    /* background-color: yellow; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-size: 40px;
+    letter-spacing: -2px;
+    font-family: monument;
+}
+
+#nav h2{
+     /* background-color: yellow;  */
+    height: 100%;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-right: 2px solid #000;
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'Gilroy' ;
+    
+}
+
+#nav h2 :nth-child(1){
+    width: 10%;
+}
+
+#nav h2 :nth-child(2){
+    width: 30%;
+}
+
+#center{
+    height: 90%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 4vw;
+    position: relative;
+}
+
+#content{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+}
+
+#content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#overlay{
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /* background-color: red; */
+    padding: 3vw;
+    color: #fff;
+}
+
+#over1{
+    padding: 1vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+
+#over1 h1{
+    font-family: monument;
+    font-size: 3.1vw;
+}
+
+#over1 h2{
+    font-size: 1vw;
+    padding: 2vw 2.4vw;
+    border-radius: 50%;
+    border: 1px solid #fff;
+   
+}
+
+#over2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #fff;
+    padding: 1vw 0;
+}
+
+#over2 h4{
+    font-size: 1.3vw;
+}
+
+#over2 img{
+    height: 3vw;
+}
+
+#scroll{
+    height: 40vh;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+
+#container{
+    height: 100%;
+    width: 110%;
+    display: inline-block;
+    padding: 1vw;
+    animation-name: anime;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+#scroll img{
+    height: 100%;
+    border-radius: 50%;
+    width: 15%;
+    margin: 1vw;
+    object-fit: cover;
+    object-position: 30% 30%;
+}
+
+@keyframes anime {
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+
+#alphabet{
+        height: 10vh;
+        width: 100%;
+        margin: 20px 0;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 1vw;
+}
+
+#alphabet  h5{
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 4px;
+    border-bottom: 2px solid #000;
+}
+
+#alphabet  h6{
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 4px;
+    background-color: yellow;
+    padding: 0.5vw 0.6vw;
+    border-radius: 50%;
+    border: 1px solid #000;
+
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
 }
