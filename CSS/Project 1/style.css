@@ -21,6 +21,9 @@ html,body{
     width: 100%;
 }
 
+body{
+    background-color: #F8F8F8;
+}
 #main{
     height: 100%;
     width: 100%;
@@ -185,14 +188,16 @@ html,body{
 }
 
 #alphabet{
-        height: 10vh;
-        width: 100%;
-        margin: 20px 0;
-        background-color: red;
-        display: flex;
-        align-items: center;
-        justify-content:center;
-        gap: 1vw;
+    height: 10vh;
+    width: 100%;
+    margin: 20px 0;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 1vw;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 #alphabet  h5{
@@ -201,7 +206,8 @@ html,body{
     font-weight: 400;
     font-style: italic;
     letter-spacing: 4px;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #000000;
+    margin-right: 2vw;
 }
 
 #alphabet  h6{
@@ -210,14 +216,194 @@ html,body{
     font-weight: 400;
     font-style: italic;
     letter-spacing: 4px;
-    background-color: yellow;
+    /* background-color: yellow; */
     padding: 0.5vw 0.6vw;
     border-radius: 50%;
-    border: 1px solid #000;
+    cursor: pointer;
+    border: 1px solid #00000000;
+    transition: all ease 0.2s;
+}
+
+#alphabet h6:hover {
+border: 1px solid #000;
 
 }
 
 #page2{
     height: 100%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
 }
+
+#page2-part1{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#page2-part2{
+    height: 100%;
+    width: 46%;
+}
+
+#page2-part2 img {
+    width: 100%;
+    object-fit: cover;
+    height: 80%;
+}
+
+#text{
+    margin: 3vh;
+    height: 15%;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#text1{
+    font-size:25px;
+    font-weight: 300;
+}
+
+#text2{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    padding: 5vw 4vw;
+}
+
+#page3>h1{
+    text-align: center;
+    font-family: monument;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-size: 3vw;
+    margin-bottom: 7vh;
+}
+
+
+.elem {
+    height: 17vh;
+    width: 100%;
+    /* background-color: red; */
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    position: relative;
+    transition: all ease 0.7s;
+
+}
+
+.elem h4 {
+    font-size: 1.1vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 6%;
+    /* background-color: red; */
+}
+
+.elem img {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    border-radius: 50%;
+    left: 12%;
+    opacity: 0;
+    object-fit: cover;
+    object-position: top;
+    transition: all ease 0.7s;
+}
+
+.elem .elem-part2 {
+    width: 45%;
+    /* background-color: red; */
+}
+
+.elem-part2 h1 {
+    font-size: 2.7vw;
+    font-weight: 500;
+}
+
+.elem-part2 h5 {
+    font-size: 0.8vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.elem:nth-last-child(1) {
+    border-bottom: 2px solid #000;
+
+}
+
+.elem:nth-last-child(1) img {
+    left: 40%;
+}
+
+.elem:nth-last-child(3) img {
+    left: 40%;
+}
+
+.elem:hover img {
+    opacity: 1;
+    left: 24%;
+}
+
+#page4{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 5vh;
+    /* height: 15vh; */
+    width: 100%;
+    /* background-color: red; */
+    padding: 1vw;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+
+#page4 h1{
+    display: inline-block;
+    font-size: 3vw;
+    text-transform: uppercase;
+    /* font-weight: 900; */
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    letter-spacing: 1px;
+    margin-right: 16px;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animation {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - 20px));
+    }
+}
+
+
+#footer{
+    height: 100%;
+    width: 100%;
+}
+
