@@ -55,6 +55,21 @@ html,body{
     /* background-color: yellow; */
 }
 
+#nav-part2 button{
+    padding: 14px 24px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    background-color: #0d0c22;
+    color: #fff;
+    font-size: 14px;
+}
+
+#nav-part2 button:nth-child(1){
+    background-color: transparent;
+    color: #000;
+}
+
 #nav img{
     height: 110px;
 
