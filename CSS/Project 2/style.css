@@ -374,3 +374,119 @@ body {
 
    
 }
+
+/* Add the following media query at the end of your existing CSS */
+
+@media screen and (max-width: 600px) {
+    #nav {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #nav img {
+        margin-top: 10px;
+    }
+    
+    #nav-part1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    #nav-part1 h4 {
+        margin: 0 5px;
+    }
+    
+    #nav-part2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #nav-part2 h4 {
+        transform: translateX(0);
+        padding: 10px;
+        margin-top: 10px;
+    }
+    
+    #nav-part2 button {
+        margin-top: 10px;
+    }
+    #content h1 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+    
+    #content h4 {
+        font-size: 18px;
+    }
+    
+    #content button {
+        padding: 16px 24px;
+        margin-bottom: 40px;
+    }
+
+    .movin-container {
+        height: 250px;
+    }
+
+    .elem {
+        width: 280px;
+    }
+
+    #page2 h1 {
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+    
+    .box {
+        height: 200px;
+        width: 240px;
+    }
+    
+    #page2 button {
+        padding: 12px 20px;
+        transform: translateX(0);
+    }
+    #page3 h1 {
+        font-size: 36px;
+    }
+    
+    #page3 h4 {
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 30px;
+    }
+    
+    #buttons button {
+        margin-top: 10px;
+        padding: 12px 20px;
+    }
+    
+    #buttons :nth-child(1) {
+        font-size: 14px;
+    }
+    
+    #page3 p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    #footer1 {
+        padding: 0 20px;
+    }
+    
+    #footer1 img {
+        transform: translateX(0);
+    }
+    #texts {
+        width: 100%;
+        transform: translateX(0);
+        justify-content: center;
+    }
+
+    #texts h4 {
+        text-align: center;
+    }
+}
