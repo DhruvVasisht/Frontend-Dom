@@ -26,10 +26,48 @@
 // })
 
 
-async function abcd(){
-   let a= await fetch('https://randomuser.me/api/');
-   a=await a.json();
-   console.log(a);
-}
+// async function abcd(){
+//    let a= await fetch('https://randomuser.me/api/');
+//    a=await a.json();
+//    console.log(a);
+// }
 
-abcd();
+// abcd();
+
+// function* printNums(){
+//    console.log("Started");
+//    yield 1;
+//    console.log("Pehla Started");
+
+//    yield 2;
+//    console.log("Doosra Started");
+
+//    yield 3;
+//    console.log(" Teesra Started");
+// }
+
+// const ans =printNums();
+// console.log(ans.next().value);
+// console.log(ans.next().value);
+// console.log(ans.next().value);
+// console.log(ans.next().value);
+
+
+// function* even(){
+//    for(var i=0;i<100;i++){
+//       if(i%2==0){
+//          yield i;
+//       }
+//    }
+// }
+
+// const main=even();
+// console.log(main.next().value);
+// console.log(main.next().value);
+// console.log(main.next().value);
+// console.log(main.next().value);
+// console.log(main.next().value);
+// console.log(main.next().value);
+
+
+var nums=Array.from({length:10000000},(_,b)=>b+1);
