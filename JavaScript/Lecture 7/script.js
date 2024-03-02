@@ -36,23 +36,25 @@
 // })
  
 //Question 4
-var add=document.querySelector("#add");
-var remove=document.querySelector("#remove");
-var ip=document.querySelector("input");
-var li; 
-var ul = document.querySelector("ul");
+// var add=document.querySelector("#add");
+// var remove=document.querySelector("#remove");
+// var ip=document.querySelector("input");
+// var li; 
+// var ul = document.querySelector("ul");
 
-add.addEventListener('click',function(){
-    if(ip.value.trim()===""){}
-    else{
-        li=document.createElement("li");
-        li.textContent=ip.value;
-        ul.appendChild(li);
-        ip.value='';     
-    }
+// add.addEventListener('click',function(){
+//     if(ip.value.trim()===""){}
+//     else{
+//         li=document.createElement("li");
+//         li.textContent=ip.value;
+//         ul.appendChild(li);
+//         ip.value='';     
+//     }
     
-})
+// })
 
-remove.addEventListener('click',function(){
-       ul.removeChild(li);
-})
+// remove.addEventListener('click',function(){
+//        ul.removeChild(li);
+// })
+
+
