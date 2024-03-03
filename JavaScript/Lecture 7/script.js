@@ -6,7 +6,7 @@
 
 // });
 
-//Question 2
+// Question 2
 
 // var img1=document.querySelector("#one");
 // var img2=document.querySelector("#two");
@@ -18,7 +18,7 @@
 //     img2.src=src1;
 // })
 
-//Question 3
+// Question 3
 
 // var form=document.querySelector("form");
 // var ips=document.querySelectorAll('input[type="text"]');
@@ -34,8 +34,9 @@
 //         }
 //     }
 // })
+
  
-//Question 4
+// Question 4
 // var add=document.querySelector("#add");
 // var remove=document.querySelector("#remove");
 // var ip=document.querySelector("input");
@@ -57,4 +58,32 @@
 //        ul.removeChild(li);
 // })
 
+
+//Question 5
+// var btn=document.querySelector("#btn1");
+// var btn2=document.querySelector("#btn2");
+// var btn3=document.querySelector("#btn3");
+// var h3=document.querySelector("h3");
+// var int;
+// btn.addEventListener('click',function(){
+//          var count=0;
+//         int=setInterval(function(){
+//           h3.textContent=count;
+//           count++;
+// },1000);
+
+        
+// })
+
+// btn2.addEventListener('click',function(){
+//     clearInterval(int)
+// })
+
+
+// btn3.addEventListener('click',function(){
+//     clearInterval(int);
+//     h3.textContent=0;
+// })
+
+//Question 6
 
