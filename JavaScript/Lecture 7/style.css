@@ -1,7 +1,8 @@
-/**{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'gilroy';
 }
 
 body{
@@ -9,6 +10,30 @@ body{
     width: 100%;
 }
 
- img{
+body{
+    padding: 20px;
+}
+
+ /* img{
     height: 300px;
-} */
+}  */
+
+#tabs{
+    display: flex;
+    gap: 20px;
+}
+
+.tab{
+    padding: 12px 22px;
+    background-color: #e9e9e9;
+    border: 2px solid #dadada;
+    border-radius: 4px;
+    font-weight: 700;
+    
+}
+
+h3{
+    display: none;
+    margin-top: 20px;
+    width: 50%;
+}
