@@ -129,25 +129,29 @@
 //     })
 // }
 
-var count=0;
-var progress=document.querySelector("#progress");
-var h3=document.querySelector("h3");
-var start=document.querySelector("#btn1");
-var stop=document.querySelector("#btn2");
-var int;
-start.addEventListener('click',function(){
-    int=setInterval(function(){
-        if(count===100){
-         clearInterval(int);
-           h3.style.opacity=1;
+
+//Question 7
+// var count=0;
+// var progress=document.querySelector("#progress");
+// var h3=document.querySelector("h3");
+// var start=document.querySelector("#btn1");
+// var stop=document.querySelector("#btn2");
+// var int;
+// start.addEventListener('click',function(){
+//     int=setInterval(function(){
+//         if(count===100){
+//          clearInterval(int);
+//            h3.style.opacity=1;
           
-        }
-        count++;
-        progress.style.width=count+'%';
-    },50);
-})
+//         }
+//         count++;
+//         progress.style.width=count+'%';
+//     },50);
+// })
 
 
-stop.addEventListener('click',function(){
-    clearInterval(int);
-})
+// stop.addEventListener('click',function(){
+//     clearInterval(int);
+// })
+
+//Question 8
