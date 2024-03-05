@@ -138,8 +138,9 @@ var int;
 start.addEventListener('click',function(){
     int=setInterval(function(){
         if(count===100){
+         clearInterval(int);
            h3.style.opacity=1;
-           clearInterval(int);
+          
         }
         count++;
         progress.style.width=count+'%';
