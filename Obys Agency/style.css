@@ -12,6 +12,19 @@ html,body{
     width: 100%;
 }
 
+
+#crsr{
+    height: 2.6vw;
+    width: 2.6vw;
+    border-radius: 50%;
+    /* background-color: white; */
+    border: 1px solid #ffffffbe;
+    position: fixed;
+    z-index: 9999;
+    mix-blend-mode: difference;
+    transform: translate(-50%,-50%);
+}
+
 #loader{
     height: 100%;
     width: 100%;
@@ -147,6 +160,8 @@ html,body{
 .hero{
     width: 72%;
     margin-left: 27%;
+    height: fit-content;
+    overflow: hidden;
 }
 
 .hero:nth-child(2){
