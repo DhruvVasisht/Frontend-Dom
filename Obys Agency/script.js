@@ -34,7 +34,7 @@ setInterval(function(){
 
 tl.to(".line h2",{
     opacity:1,
-    animationName:"anime"
+    animationName:"animey"
 })
 
 tl.to("#loader",{
