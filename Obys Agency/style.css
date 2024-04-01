@@ -263,11 +263,7 @@ body{
     width: 100%;
     background-color: #151515;
     position: relative;
-<<<<<<< HEAD
     padding: 7vh 0;
-=======
-    padding-top: 5vh;
->>>>>>> 97b7cc32159ffe14270fe15fdd50ba0ab1c69f88
 }
 
 #page4-content{
@@ -281,11 +277,7 @@ body{
 }
 
 #page4-content .underline{
-<<<<<<< HEAD
     height: 1px;
-=======
-    height: 2px;
->>>>>>> 97b7cc32159ffe14270fe15fdd50ba0ab1c69f88
     width: 92%;
     background-color: #fff;
     margin: 5vw 0;
@@ -318,21 +310,15 @@ body{
     position: relative;
     margin-top: -35vh;
     margin-left: 26vw;
-<<<<<<< HEAD
     position: relative;
-=======
->>>>>>> 97b7cc32159ffe14270fe15fdd50ba0ab1c69f88
 }
 
 .blue-div-elem {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-<<<<<<< HEAD
     padding: 1.7vw 0;
     border-bottom: 2px solid #ffffff94
-=======
->>>>>>> 97b7cc32159ffe14270fe15fdd50ba0ab1c69f88
 }
 
 .blue-div-elem h4 {
@@ -343,7 +329,6 @@ body{
 .blue-div-elem p {
     width: 40%;
     font-size: 0.8vw;
-<<<<<<< HEAD
 }
 
 #p4{
@@ -446,6 +431,3 @@ body{
     color: transparent;
 }
 
-=======
-}
->>>>>>> 97b7cc32159ffe14270fe15fdd50ba0ab1c69f88
