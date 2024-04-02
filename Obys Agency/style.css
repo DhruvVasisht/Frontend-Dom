@@ -161,27 +161,41 @@ body{
 
 }
 
-.hero{
+
+.hero {
+    /* background-color: red; */
     width: 72%;
     margin-left: 27%;
+   
     height: fit-content;
-    overflow: hidden;
+    /* background-color: red; */
+    overflow-y: hidden;
+  
     display: flex;
-    align-items: center;
-    position: relative;
-    z-index: 999;
+
+
 }
 
-.hero:nth-child(2){
+.hero:nth-child(2) {
     margin-top: 18vh;
-    
 }
 
-.hero h1{
-    font-size: 7vw;
-    text-transform: uppercase;
-    line-height: 7vw;
+.hero h1 {
+    font-size: 7.2vw;
     font-weight: 600;
+    text-transform: uppercase;
+    line-height: 7.2vw;
+    position: relative;
+}
+
+#hero1::before {
+    content: "01";
+    position: absolute;
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: "silk serif";
+    left: 20%;
+    top: 36%;
 }
 
 .hero h2{
@@ -269,11 +283,21 @@ body{
 #page4-content{
     width: 72vw;
     margin-left: 28%;
+    position: relative;
 }
 
 #page4-content h1{
     font-size: 8vw;
     text-transform: uppercase;
+}
+#page4-content::before {
+    content: "03";
+    position: absolute;
+    font-size: 3.3vw;
+    font-weight: 100;
+    font-family: "silk serif";
+    left: -13%;
+    top: 2%;
 }
 
 #page4-content .underline{
@@ -431,3 +455,63 @@ body{
     color: transparent;
 }
 
+#footer {
+    height: 90vh;
+    width: 100%;
+    background-color: #151515;
+    position: relative;
+    padding-left: 28vw;
+    padding-right: 2vw;
+}
+
+#footer h1 {
+    font-size: 7.2vw;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.underline {
+    height: 0.8px;
+    width: 100%;
+    background-color: #fff;
+    margin: 3vw 0;
+}
+
+#footer-div{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding-right: 15vw;
+      padding-top: 1vw;
+      margin-bottom: 6vw;
+}
+
+#footer-div h6{
+    font-size: 1vw;
+    margin-bottom:1.4vw ;
+    font-weight: 600;
+}
+.box{
+    width: 27%;
+
+}
+
+#footer-div h5{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+#footer>h5{
+    font-size: 1.05vw;
+    font-weight: 500;
+}
+
+#footer h1::before {
+    content: "04";
+    position: absolute;
+    font-size: 3.3vw;
+    font-weight: 100;
+    font-family: "silk serif";
+    left: -13%;
+    top: 6%;
+}
