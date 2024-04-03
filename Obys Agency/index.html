@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obys Agency</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css"/> 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="shortcut icon" href="./Assets/favicon.png" type="image/x-icon">
@@ -32,7 +33,7 @@
         </div>
     </div>
     <div id="main">
-        <div id="page1">
+        <div id="page1" data-scroll data-scroll-speed="-1">
             <div id="nav">
                 <svg class="brand__svg" width="71" height="27" viewBox="0 0 71 27">
                     <path
@@ -86,17 +87,27 @@
                 <h1>Experience</h1>
             </div>
         </div>
-        <div id="page2">
+        <div id="page2"data-scroll data-scroll-speed="-0.5">
             <div id="video-container">
                 <div id="video-cursor">
                     <i class="ri-play-mini-fill"></i>
                 </div>
                 <img src="https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg" alt="">
-                <video autoplay loop muted src="https://obys.agency/wp-content/uploads/2022/11/Obys-Showreel-2022.mp4"></video>
+                <video loop muted src="https://obys.agency/wp-content/uploads/2022/11/Obys-Showreel-2022.mp4"></video>
             </div>
         </div>
-        <div id="page3"></div>
-        <div id="page4">
+        <div id="page3"data-scroll data-scroll-speed="-2.5" >
+            <h1>Our Projects</h1>
+            <div class="underline"></div>
+            <div id="image-div-container">
+                <div class="image-div">
+                    <img src="./assets/img1-1.jpg" alt="">
+                    <img src="./assets/img1-2.jpg" alt="">
+                </div>
+                
+            </div>
+        </div>
+        <div id="page4"data-scroll >
             <div id="page4-content">
                 <h1>About OBYS</h1>
                 <div class="underline"></div>
@@ -181,7 +192,7 @@
             </div>
 
         </div>
-        <div id="page5">
+        <div id="page5"data-scroll >
             <div class="elem">
                 <h1><span>Sport</span> - Fashion - Technology -</h1>
                 <h1><span>Sport</span> - Fashion - Technology -</h1>
@@ -199,7 +210,7 @@
                 <h1><span>Hotels</span> - Music - Automotive -</h1>
             </div>
         </div>
-        <div id="footer">
+        <div id="footer"data-scroll >
               <div id="footer-text">
                 <h1>Let's Create</h1>
 
@@ -234,7 +245,7 @@
     </div>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
